@@ -1,7 +1,7 @@
 console.log(import.meta.env.VITE_WEATHER_API_KEY);
 
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './App.css';
 
 const API_KEY = import.meta.env.VITE_WEATHER_API_KEY; // Function to fetch weather data from API
